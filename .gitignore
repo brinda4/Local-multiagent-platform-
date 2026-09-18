@@ -1,0 +1,19 @@
+﻿# Virtual environment
+.venv/
+env/
+venv/
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large biomedical data assets (downloaded via scripts/download_datasets.py)
+data/raw/
+data/processed/*.db
+data/processed/*.db-wal
+data/processed/*.db-shm
+
+# Streamlit runtime
+.streamlit/

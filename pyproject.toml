@@ -1,0 +1,20 @@
+[project]
+name = "translational-genomics-platform"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "altair>=6.3.0",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "requests>=2.34.2",
+    "streamlit>=1.64.0",
+]
+
+[project.scripts]
+translational-genomics-platform = "translational_genomics_platform:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
