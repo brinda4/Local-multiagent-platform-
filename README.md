@@ -1,4 +1,4 @@
-﻿# Translational Genomics & Anatomical Intelligence Platform
+# Translational Genomics & Anatomical Intelligence Platform
 
 **PrimeKG Data Integration | Bgee & DisGeNET Focus**
 
@@ -25,6 +25,22 @@ The system references the multi-agent design pattern from the AWS cancer biomark
   `src/tools/db_tool.py` enforces connection-level read-only flags (`mode=ro`) and lexical token validation, strictly blocking `INSERT`, `UPDATE`, `DELETE`, `DROP`, `ALTER`, `CREATE`, `TRUNCATE`, and `PRAGMA`.
 - **Zero Emoji Compliance**:
   Adheres strictly to a professional, formal academic standard with zero emoji characters anywhere in code, headers, buttons, tabs, logs, or documentation.
+
+---
+
+## Interface Preview & Visual Results
+
+The platform features an Emerald & Slate portal theme with live relational KPI metrics, multi-agent query synthesis, and interactive evidence exploration.
+
+| Portal Header & Live Database KPIs | Multi-Agent Synthesized Report |
+| :---: | :---: |
+| ![Portal Header](assets/01_portal_header_and_kpis.png) | ![Synthesized Report](assets/02_multiagent_synthesized_report.png) |
+
+| Specialized Agent Evidence Tables |
+| :---: |
+| ![Evidence Tables](assets/03_agent_evidence_tables.png) |
+
+> For the detailed visual walkthrough, refer to [DEMO_RESULTS.md](DEMO_RESULTS.md).
 
 ---
 
