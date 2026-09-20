@@ -1,4 +1,4 @@
-﻿# How to Use the Translational Genomics & Anatomical Intelligence Platform
+# How to Use the Translational Genomics & Anatomical Intelligence Platform
 
 This guide provides step-by-step instructions for running, querying, and managing the 100% local, offline-capable biomedical multi-agent platform.
 
@@ -11,7 +11,7 @@ The platform runs on any local workstation with Python 3.10+ (tested on Python 3
 ### Quick Setup with uv
 Navigate to the project root directory and install dependencies:
 ```bash
-cd C:\Users\tsbri\.gemini\antigravity\scratch\translational_genomics_platform
+cd translational_genomics_platform
 uv sync
 ```
 
